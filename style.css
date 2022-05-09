@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Nunito:wght@200&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #FCF6EB;
+    font-family: 'Poppins',
+    sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 30px;
+}
+
+header h1{
+    font-family: 'Nunito',
+    sans-serif;
+    color: #C04949;
+    text-align: center;
+    width: 100%;
+    max-width:300px;
+}
+
+header h1 span{
+    font-family: 'Modak',
+    cursive;
+    font-size:52px;
+    font-weight:normal;
+    color: #003E59;
+}
+
+header p{
+    color: #003E59;
+    align-self: center;
+    width: 100%;
+    max-width: 300px;
+}
+
+
+header div{
+    width: 100%;
+    max-width:300px;
+    height: 70px;
+    background-color: #C04949;
+    align-self: center;
+    border-radius: 40px;
+    color: #FCF6EB;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+    padding: 25px;
+    font-weight: bold;
+}
+
+header div:hover{
+    background-color: #e26868;
+}
+
+
+.information{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+
+}
+
+.information p{
+    margin: 20px;
+    font-weight: bold;
+    color: #003E59;
+    font-size:20px;
+}
+
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.container .box{
+    margin: 80px;
+    font-size: 22px;
+}
+
+.container .box button{
+    display: block;
+    width: 100%;
+    max-width:200px;
+    margin: 10px auto;
+    height: 40px;
+    background-color:#C04949;
+    color: #FCF6EB;
+    font-size:18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.container .box button:hover {
+    background-color: #e26868;
+}
+
+.container .box div{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#logobox{
+    background-color: #C04949;
+    text-align: center;
+    margin: 150px 10px;
+}
+
+@media screen and (max-width:340px){
+    header h1 span{
+        font-size:36px;
+    }
+}
+
+@media screen and (max-width:500px){
+    #logobox img{
+        width:70%;
+    }
+
+    .information p{
+        font-size: 10px;
+    }
+}

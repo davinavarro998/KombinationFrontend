@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kombination Marketplace</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome the <span>Kombination!</span>
+        </h1>
+        <p>We dont like the establishment but we are no punks. In our vans, we transport humans and others from anywhere, to
+        everywhere. We preach Unity, Love and Freedom. Turn on, tune in and drop out with the KNation!</p>
+        <div></div>
+    </header>
+    <main>
+        <div class="information">
+            <p>Token Name = <span id="name">None</span></p>
+            <p>Token Symbol = <span id="symbol">None</span></p>
+            <p>Token Price = <span id="price">None</span></p>
+            <p id="nft_address">Token Address = <span>None</span></p>
+            <p>Amount of NFTs minted = <span id="nft_amount"></span></p>
+        </div>
+        <div class="container">
+            <div class="box" id="box1">
+                <div>
+                    <span id="current_token_id">0</span>
+                    <span>of</span>
+                    <span id="maximum_token_id">5</span>
+                    <span>kombis sold</span>
+                </div>
+                <button>Mint</button>
+            </div>
+        </div>
+        <div id="logobox"><img src="https://kombination.io/assets/logo.png" alt=""></div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.2-rc.0/web3.min.js"
+        integrity="sha512-REWiGZVmhU2S5eIov/DuNrsq4djWnPaAHSvXrbLLLaI0r/gW+wh1utIzxt0iB4IQLgXhNDj5mR0YMBjrkKhVMA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
